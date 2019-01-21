@@ -34,5 +34,3 @@ def get_eq_stress(
 if __name__ == "__main__":
     sig_v = get_eq_stress((20, 60), stress_type='principal', state='2d')
     print(f"Von Mises stress equals {sig_v:0.1f} MPa.")
-
-    assert(get_eq_stress((20, 60), stress_type='principal', state='2d')) # 50.9
