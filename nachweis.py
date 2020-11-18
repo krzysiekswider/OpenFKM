@@ -1,4 +1,4 @@
-def aSK(sigV,sigSK,jges):
+def get_aSK(sigV,sigSK,jges):
     """Auslastungsgrad der Vergleichsspannung
     
     sigv    Vergleichsauslastung im Nachweispunkt nach Abschnitt 3.1.1
@@ -7,9 +7,9 @@ def aSK(sigV,sigSK,jges):
     """
     return sigV / sigSK / jges
     
-def h():
+def get_h():
     """Gl. (3.1.10)"""
-    return h
+    return None
 
-def aSHZug(sigH,sigSH_Zug,jges):
-    return sigH
+def get_aSHZug(sigH,sigSH_Zug,jges):
+    return None
